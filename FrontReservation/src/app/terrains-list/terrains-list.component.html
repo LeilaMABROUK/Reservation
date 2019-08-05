@@ -1,0 +1,21 @@
+<div >  
+    <h3>Liste des terrains</h3>  
+    <table >  
+        <thead>  
+            <tr>  
+                <th>IdTerrain</th>  
+                <th>nameTerrain</th>  
+                <th>Nb_place</th>  
+                <th>type</th>  
+              </tr>  
+        </thead>  
+        <tbody>  
+          <tr *ngFor="let T of Terrain">  
+            <td>{{T.IdTerrain}}</td>  
+            <td>{{T.nameTerrain}}</td>  
+            <td>{{T.Nb_place}}</td>  
+            <td>{{T.type}}</td>  
+          </tr>  
+        </tbody>  
+      </table>  
+    </div>  
